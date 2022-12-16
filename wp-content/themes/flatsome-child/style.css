@@ -1,0 +1,220 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+html{background: transparent !important;}
+
+
+
+.section-noi-that{
+	padding-bottom: 0px !important
+}
+.header-bg-color{
+	background-color: transparent !important;
+}
+h5.post-title{
+	font-weight: normal;
+}
+.breadcrumb_last{
+	font-weight: bold;
+	color: black    
+}
+.breadcrumbs-div{
+	padding-left: 14px;
+}
+.nav-dropdown{
+	border: none !important;
+	box-shadow: none;
+}
+.header-bottom-nav li:before,.header-bottom-nav li:after{
+	display: none;
+}
+.header-bottom-nav li a{
+	padding: 8px;
+}
+.header-bottom-nav li a:hover{
+	background: #FFFFFF;
+
+	-moz-box-shadow: 0 0px 3px #DAD9D9;
+	-webkit-box-shadow: 0 0px 3px #DAD9D9;
+	box-shadow: 0 0px 3px #DAD9D9;
+}
+.header-bottom-nav li ul{
+	-webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.11) inset;
+	-moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.11) inset;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.11) inset;
+} 
+.header-bottom-nav li ul li{
+	padding: 5px 10px;
+	background: #F7F7F7;
+}
+.header-bottom-nav li ul li a{
+	margin: 0px !important;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#menu-menu-sidebar li a:before{
+	padding-right: 10px;
+	font-size: 8px !important;
+	content: "\f054";
+	font-family: fontawesome;
+}
+.footer .widget-title {
+	color: #f6c313;
+}
+.footer p:hover,.footer li a:hover{
+	color: #f6c313 !important;
+}
+.post-sidebar .widget-title {
+	display: block;
+	border-bottom: 1px solid #cdcd;
+	padding-bottom: 10px;
+}
+.entry-content{
+	padding-top: 0px;
+}
+.archive-page-header h1{
+	text-align: center;
+	border-bottom: 1px solid #e6e6e6;
+	background-color: #fff;
+	line-height: 7px;
+	margin-bottom: 15px;
+}
+.archive-page-header h1 span{
+	background-color: #fff;
+	padding: 0px 15px;
+	text-transform: uppercase;
+	font-size: 33px;
+	margin-bottom: 15px;
+	font-family: Helvetica;
+	white-space: nowrap;
+	font-weight: 300;
+}
+.is-divider{
+	display: none;
+}
+.section-banner .col{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.header-wrapper{
+	border-bottom: solid 3px #d60d03;
+	background: #FFFFFF url(images/s5_header_bg.png) repeat-x bottom left;
+
+}
+.header-bottom {
+	border: solid 1px #FFFFFF;
+	/* margin-left: -21px; */
+	/* margin-right: -21px; */
+	background: #FFFFFF url(images/s5_menu_bg.png) repeat-x bottom left;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11) inset;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11) inset;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11) inset;
+}
+.section-thi-cong .row .col,.section-thiet-ke .row .col,.section-hang-muc .row .col {
+	padding-bottom: 0px;
+}
+
+.section-title-main{
+	background: #F6C313;
+	border-color: #F6C313 !important;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+ul.mobile-nav li a {
+	color: #F6C313
+}
+
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
+@media(min-width: 850px){
+	.header-wrapper{
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 38px;
+		padding-bottom: 14px;
+	}
+
+	#header .mfp-content, #header .stuck, #header button.mfp-close {
+		top: 0px!important;
+	}
+}
